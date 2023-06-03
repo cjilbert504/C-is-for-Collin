@@ -28,3 +28,6 @@ gcc hello-world.c -o hey
 - Both 'X' and "X" have a length of one, however, because all strings get a
     null zero added to the end of them the "X" consumes two characters of
     memory. A bit of clarity here: 'X' is a character and "X" is a string.
+- To assign a string to a variable you use a character array. You must
+    reserve enough character array space to hold the longest string you will
+    need to hold, plus the string terminator (null zero) 🤯.
