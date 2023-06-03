@@ -16,9 +16,9 @@ trouble here is what I do:
 ```bash
 gcc my-c-code-file.c -o name-of-resulting-executable
 
-" As a more practical example:
+As a more practical example:
 gcc hello-world.c -o hello-world
 
-" or:
+or:
 gcc hello-world.c -o hey
 ```
