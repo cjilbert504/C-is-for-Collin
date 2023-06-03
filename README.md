@@ -22,3 +22,9 @@ gcc hello-world.c -o hello-world
 or:
 gcc hello-world.c -o hey
 ```
+
+### Interesting Tidbits
+- Apparently floating point numbers consume nearly twice as much memory as integers.
+- Both 'X' and "X" have a length of one, however, because all strings get a
+    null zero added to the end of them the "X" consumes two characters of
+    memory. A bit of clarity here: 'X' is a character and "X" is a string.
