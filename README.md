@@ -1,4 +1,4 @@
-# c-coding
+# C is for Collin
 Me learning C
 
 ## What I'm using to learn as of June 2023
