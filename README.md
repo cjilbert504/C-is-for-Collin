@@ -23,6 +23,13 @@ or:
 gcc hello-world.c -o hey
 ```
 
+In the ending program for Chapter 6 there is an error in the program, at least for
+me there was when I went to compile it. I thought it would blow up because the
+authors never showed that assigning a string to a variable was possible this way:
+char Hero3 = "Batman";
+Sure enough it is not. I fixed it in the following way:
+char Hero3[] = "Batman";
+
 ### Interesting Tidbits
 - Apparently floating point numbers consume nearly twice as much memory as integers.
 - Both 'X' and "X" have a length of one, however, because all strings get a
